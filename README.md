@@ -1,4 +1,5 @@
-# Gaya Jekyll Theme
+# Site backup
+## Originally based on Gaya Jekyll Theme
 
 Modern responsive theme made for jekyll blogging platform. 
 Gaya is a simple theme build from ground up with the focus of performance. 
