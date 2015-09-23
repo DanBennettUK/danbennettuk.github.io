@@ -3,7 +3,7 @@ layout: post
 title: "iOS 9 slow after upgrade?"
 date: "2015-09-17 10:30"
 ---
-# Give it up to 48 hours...
+# Give it up to 24 hours...
 
 I know, it sounds a bit silly. But on most iOS major release, a lot will update, migrate, and index in the background.
 This means Battery and Performance will take a temporary hit.
