@@ -56,6 +56,9 @@ styles and `#sidebar-toggle-checkbox` for behavior.
   </nav>
 
 	{% include social.html %}
+<a href="https://twitter.com/intent/tweet?screen_name=DanBennett&text=Drop%20me%20a%20tweet!%20" class="twitter-mention-button" data-size="large" data-related="DanBennett">Tweet to @DanBennett</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+
 
   <div class="sidebar-info small">
      <p>
@@ -64,4 +67,5 @@ styles and `#sidebar-toggle-checkbox` for behavior.
   </div>
 
 </div>
+
 {% endcapture %}{{ sidebar | strip_newlines }}
