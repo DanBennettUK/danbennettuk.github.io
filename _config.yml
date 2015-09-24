@@ -9,6 +9,7 @@ url: "http://dan-bennett.me" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Dan Bennett"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+encoding: utf-8
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
