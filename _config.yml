@@ -13,7 +13,7 @@ encoding: utf-8
 # Theme customization - please change from the defaults!
 theme:
   # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
+  highlight_color: "#F29C1A" #"#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social:
     github: DanBennettUK
@@ -40,7 +40,7 @@ theme:
 markdown: kramdown
 
 # Permalinks
-permalink:        pretty
+permalink: pretty 
 
 # Pagination config
 paginate: 5
