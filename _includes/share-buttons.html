@@ -1,7 +1,7 @@
 {% capture share_button %}
 <div class="share-buttons">
   <h5>Share this post on</h5>
-  {% if layout = post %}
+  {% if page.id == null %}
   <ul class="social-media">
     <li>
         <a title="{{ site.theme.social.twitter }} on Twitter"
@@ -39,5 +39,6 @@
             class="facebook wc-img-replace" target="_blank">Facebook</a>
     </li>
   </ul>
+{% endif %}
 </div>
 {% endcapture %}{{ share_button | strip_newlines }}
