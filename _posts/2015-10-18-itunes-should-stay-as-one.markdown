@@ -1,6 +1,6 @@
 ---
 layout: post
-published: false
+published: true
 title: "iTunes should stay as one application..."
 date: "2015-10-18 10:00"
 ---
