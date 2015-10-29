@@ -45,6 +45,7 @@ permalink: /:title
 
 # Pagination config
 paginate: 5
+gems: [jekyll-paginate]
 
 # Files/Folders to be excluded from generated _site folder
 exclude:
