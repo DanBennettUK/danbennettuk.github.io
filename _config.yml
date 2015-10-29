@@ -41,6 +41,7 @@ markdown: kramdown
 
 # Permalinks
 permalink: pretty 
+#permalink: /:title.html
 
 # Pagination config
 paginate: 5
