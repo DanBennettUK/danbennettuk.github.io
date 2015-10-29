@@ -2,7 +2,7 @@
 layout: post
 date: "2015-10-29 20:00"
 published: true
-title: "Team Kryptk 24 Hour Charity Livestream - 16th & 17th Jan 2016"
+title: "Team Kryptk 24 Hour Charity Livestream - 16th/17th Jan 2016"
 link: http://www.teamkryptk.com/charity/
 ---
 The lovely folks over at [Team Kryptk](http://www.teamkryptk.com) are doing a 24 hour livestream in 2016 to raise money for **MIND**.
