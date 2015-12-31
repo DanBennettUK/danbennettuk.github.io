@@ -38,6 +38,7 @@ theme:
 
 # Build settings
 markdown: kramdown
+#markdown: CommonMark
 
 # Permalinks
 #permalink: pretty 
