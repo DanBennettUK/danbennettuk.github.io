@@ -7,8 +7,7 @@ link: http://www.typora.io/
 ---
 ![img](https://pbs.twimg.com/profile_images/530007658397315072/wde9RRJU.png)
 
-##Typora
-has quickly become one of my favorite Markdown editors.
+##Typora has quickly become one of my favorite Markdown editors.
 
 As you type in Markdown, it renders it in HTML on the fly. So as you're writing, you're seeing it as you expect it. So essentially, it's a Markdown WYSIWYG editor. And I *love* it.
 
