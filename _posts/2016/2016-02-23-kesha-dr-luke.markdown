@@ -38,4 +38,3 @@ Grrr!
 
 Disclaimer: Just to note, I'm no expert in this. I'm taking my view on what I've read thus far. And I'm not saying either or are correct in their statements.
 
-:smile:
