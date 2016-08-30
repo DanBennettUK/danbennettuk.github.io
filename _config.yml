@@ -11,7 +11,7 @@ author: "Dan Bennett"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 encoding: utf-8
 # Theme customization - please change from the defaults!
-theme:
+theme_settings:
   # Color for sidebar bar, links, etc
   highlight_color: "#2D7EAD" #"#eb9719"
   # Social media links, leave blank to ignore

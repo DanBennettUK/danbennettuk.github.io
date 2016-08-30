@@ -4,18 +4,18 @@
   {% if page.id == null %}
   <ul class="social-media">
     <li>
-        <a title="{{ site.theme.social.twitter }} on Twitter"
+        <a title="{{ site.theme_settings.social.twitter }} on Twitter"
           href="https://twitter.com/intent/tweet?original_referer={{site.url}}{{post.url}}&amp;text={{post.title}}&#32;&#58;&amp;url={{site.url}}{{post.url}}" class="twitter wc-img-replace" target="_blank">
           Twitter
         </a>
     </li>
     <li>
-        <a title="{{ site.theme.social.gplus }} on Google Plus"
+        <a title="{{ site.theme_settings.social.gplus }} on Google Plus"
             href="https://plus.google.com/share?url={{site.url}}{{post.url}}"
             class="google wc-img-replace" target="_blank">Google</a>
     </li>
     <li>
-        <a title="{{ site.theme.social.facebook }} on Facebook"
+        <a title="{{ site.theme_settings.social.facebook }} on Facebook"
             href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{post.url}}&amp;t={{post.title}}"
             class="facebook wc-img-replace" target="_blank">Facebook</a>
     </li>
@@ -23,18 +23,18 @@
   {% else %}
   <ul class="social-media">
     <li>
-        <a title="{{ site.theme.social.twitter }} on Twitter"
+        <a title="{{ site.theme_settings.social.twitter }} on Twitter"
           href="https://twitter.com/intent/tweet?original_referer={{site.url}}{{page.url}}&amp;text={{page.title}}&#32;&#58;&amp;url={{site.url}}{{page.url}}" class="twitter wc-img-replace" target="_blank">
           Twitter
         </a>
     </li>
     <li>
-        <a title="{{ site.theme.social.gplus }} on Google Plus"
+        <a title="{{ site.theme_settings.social.gplus }} on Google Plus"
             href="https://plus.google.com/share?url={{site.url}}{{page.url}}"
             class="google wc-img-replace" target="_blank">Google</a>
     </li>
     <li>
-        <a title="{{ site.theme.social.facebook }} on Facebook"
+        <a title="{{ site.theme_settings.social.facebook }} on Facebook"
             href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&amp;t={{page.title}}"
             class="facebook wc-img-replace" target="_blank">Facebook</a>
     </li>
