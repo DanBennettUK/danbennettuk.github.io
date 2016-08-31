@@ -13,7 +13,7 @@ encoding: utf-8
 # Theme customization - please change from the defaults!
 theme_settings:
   # Color for sidebar bar, links, etc
-  highlight_color: "#2D7EAD" #"#eb9719"
+  highlight_color: "#3F51B5" #"#2D7EAD"
   # Social media links, leave blank to ignore
   social:
     github: DanBennettUK
