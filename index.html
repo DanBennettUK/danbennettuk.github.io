@@ -25,20 +25,12 @@ layout: default
     </h1>
 
     <p class="post-meta">
-    <!--{% if (post.categories.size > 0 %}
-      <span class="categories">
-      {{ post.categories | array_to_sentence_string }}
-      </span> |
-    {% endif %}-->
     <span class="post-date">
     <a class="post-meta" href="{{ post.url }}">{{ post.date | date: "%b %-d, %Y" }}</a>{% if post.author %} • {{ post.author }}{% endif %}{% if post.meta %} • {{ post.meta }}{% endif %}
     </span>
     </p>
 
     {{ post.content }}
-    <!--<a href="{{ post.url | append: '/' | replace: '//', '/' | prepend: site.baseurl | prepend: site.url |  }}">
-      Continue reading »
-    </a>-->
 <div class="author-info">
     {% if site.theme.show_author_info %}
       {% include author.html %}

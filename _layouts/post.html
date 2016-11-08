@@ -24,7 +24,7 @@ layout: default
     <h1 class="post-title">{{ page.title }}</h1>
     {% endif %}
     <p class="post-meta">
-    {% if (page.categories.size > 0 %}
+    {% if page.categories.size > 0 %}
       <span class="categories">
       {{ page.categories | array_to_sentence_string }}
       </span> |
