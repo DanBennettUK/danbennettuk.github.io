@@ -37,7 +37,7 @@ ErrorDocument 404 /404.html
     </FilesMatch>
 </IfModule>
 
-#Options +MultiViews
+Options +MultiViews
 
 RewriteEngine On
 RewriteCond %{HTTPS} !=on
