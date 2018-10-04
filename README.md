@@ -1,133 +1,66 @@
-# Site backup
-## Originally based on Gaya Jekyll Theme
+<p align="center">
+    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="http://sergiokopplin.github.io/indigo/">Demo</a> · <a href="https://travis-ci.org/sergiokopplin/indigo"><img src="https://camo.githubusercontent.com/5393485b732749b3499264168fa8af60166071e8/68747470733a2f2f7472617669732d63692e6f72672f73657267696f6b6f70706c696e2f696e6469676f2e7376673f6272616e63683d67682d7061676573" alt="Build Status" data-canonical-src="https://travis-ci.org/sergiokopplin/indigo.svg?branch=gh-pages" style="max-width:100%;"></a></h2>
+</p>
 
-Modern responsive theme made for jekyll blogging platform. 
-Gaya is a simple theme build from ground up with the focus of performance. 
-The theme itself quickly adapts to the users device, so it looks great on 
-smartphones, tablets, desktops or even the large monitors.
+<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
 
-- Ability to change theme color at any time with any color.
-- Easy customizable menu navigation.
-- SEO Friendly
-- Embed image, YouTube/Vimeo video or SoundCloud audio to your post.
+***
+
+<p align="center">
+    <b><a href="README.md#what-has-inside">What has inside</a></b>
+    |
+    <b><a href="README.md#setup">Setup</a></b>
+    |
+    <b><a href="README.md#settings">Settings</a></b>
+    |
+    <b><a href="README.md#how-to">How to</a></b>
+</p>
+
+<p align="center">
+    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
+</p>
+
+## What has inside
+
+- [Jekyll](https://jekyllrb.com/), [Sass](http://sass-lang.com/) ~[RSCSS](http://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/)
+- Tests with [Travis](https://travis-ci.org/)
+- Google Speed: [98/100](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fsergiokopplin.github.io%2Findigo%2F);
+- No JS. :sunglasses:
+
+## Setup
+
+0. :star: to the project. :metal:
+2. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
+3. Edit `_config.yml` with your data (check <a href="README.md#settings">settings</a> section)
+4. Write some posts :bowtie:
+
+If you want to test locally on your machine, do the following steps also:
+
+1. Install [Jekyll](http://jekyllrb.com), [NodeJS](https://nodejs.org/) and [Bundler](http://bundler.io/).
+2. Clone the forked repo on your machine
+3. Enter the cloned folder via terminal and run `bundle install`
+4. Then run `bundle exec jekyll serve --config _config.yml,_config-dev.yml`
+5. Open it in your browser: `http://localhost:4000`
+6. Test your app with `bundle exec htmlproofer ./_site`
+7. Do you want to use the [jekyll-admin](https://jekyll.github.io/jekyll-admin/) plugin to edit your posts? Go to the admin panel: `http://localhost:4000/admin`. The admin panel will not work on GitHub Pages, [only locally](https://github.com/jekyll/jekyll-admin/issues/341#issuecomment-292739469).
+
+## Settings
+
+You must fill some informations on `_config.yml` to customize your site.
+
+```
+name: John Doe
+bio: 'A Man who travels the world eating noodles'
+picture: 'assets/images/profile.jpg'
+...
+
+and lot of other options, like width, projects, pages, read-time, tags, related posts, animations, multiple-authors, etc.
+```
+
+## How To?
+
+Check the [FAQ](./FAQ.md) if you have any doubt or problem.
 
 ---
 
-![Theme preview](http://gayan.me/thumbnails/gaya-jekyll-theme-preview-590x300.png "Gaya jekyll theme")
-
-### Need Help?
-
-Please submit as an 
-[issue](https://github.com/web-create/harmony/issues/new), I am happy 
-to response back.
-
-## How to install/run
-
-1. [Fork](https://github.com/gayanvirajith/gaya) this repository.
-2. Clone it: git clone https://github.com/YOUR-USERNAME/gaya.
-3. If you completely new to jekyll, please read more about [Jekyll](http://jekyllrb.com/) and [Github pages](https://help.github.com/articles/using-jekyll-with-pages).
-4. Change your directory into cloned repository. 
-5. Run `bundle install`
-6. Edit the _config.yml on root directory. Change `url` property to to 
-`http://127.0.0.1:4000` since you are going to run on localhost.
-7. Run the jekyll server by having: `bundle exec jekyll serve --baseurl ''` or `rake preview`   
-
-Try to locate your browser at [http://localhost:4000](http://localhost:4000).
-
-Note: If you are a windows user please refer this nice website - http://jekyll-windows.juthilo.com/ by Julian Thilo to configure ruby + jekyll on windows.
-
-
-## Theme options and configurations
-
-Following options can be seen within the file `_config.yml`. More information 
-about configuration can be found on the [Jekyll Documentationn][jekyll]
-
-### General settings
-
-| Property name | Description  |
------------- | -------------
-`title` | The title of your blog shown in the site header along with the logo.
-`tagline` | The site tagline also shown in the site header along with the title.
-`email` | The email address associated with blog/site.
-`description` | The site description used to show author's/site's description in the top of the sidebar.
-`baseurl` | The subpath of your site, e.g. /blog/. More information can be found in the [Jekyll Documentationn][jekyll].
-`url` | The base host name & protocol for your site. More information can be found in the [Jekyll Documentationn][jekyll].
-`logourl` | Path to main logo image.
-`author_thumbnail` | Path to author's thumbnail image. 
-`author` | Name of the author.
-`paginate` | Number of posts to show per page, More information can be found in the [Jekyll Documentationn][jekyll].
-
-### Social profile links
-
-| Property name | Description  |
------------- | -------------
-`github` | GitHub link (Leave empty to exclude)
-`twitter` | Twitter link (Leave empty to exclude)
-`facebook` | Facebook link (Leave empty to exclude)
-`gplus` | Google plus link (Leave empty to exclude)
-`dribble` | Dribble link (Leave empty to exclude)
-`pinterest` | Pinterest link (Leave empty to exclude)
-
-### Theme settings
-
-| Property name | Description  |
------------- | -------------
-`highlight_color` | The main highlight/theme color of the site. You can put any color as a hex color. The configured color will be applied to sidebar, anchor links, buttons etc.
-`show_share_buttons` | Set as True/False to enable or disable Post share option.
-`show_author_info` | Set as True/False to enable or disable the author information on a post.
-`disqus_shortname` | Disqus Short name for Disqus comments. Leave empty to disable comments.
-`google_analytics_key` | Enter your Google analytics tracking ID to enable analytic support.
-`google_webmaster_key` | Enter your Google web-master verification key to verify your site with the web-master tool. (This is an alternative way of verifying your site with the web-master tool, the general way is to upload a file to your server.)
-
-
-### Page level configurations
-
-These configurations can be found within the top section of the each page, see the a post under `_posts` directory for example. 
-
-| Property name | Description  |
------------- | -------------
-`banner_image` | Specify the image name eg: `sample-banner-image-1.jpg` for banner image for the post. Jekyll system tries to locate the image under `assets/images`. So make sure you place all banner images under assets/images.
-`banner_video` | If you want to embed `Youtube/Vimeo` Video or `SoundCloud` audio, Specify the resource within single quotes. Please have a look on example post in `_posts/2014-12-14-what-is-nodejs.md` to see how we embed YouTube video. 
-`comments` | Set as True/False, if false will disable comments for current page/post.
-`browser_title` | SEO property.  Use this property if you want to display different browser title other than default page title. Please have a look on example post under `_posts/2014-12-14-what-is-nodejs.md` to see how we used the property.
-`meta_description` | SEO property. Use this property If you want to have unique meta description for each post. See the example post on `_posts/2014-12-14-what-is-nodejs.md` to see how we used the property.
-
-### Sidebar navigation configurations
-
-As jekyll supports data files, **Gaya** theme uses `YAML` [data file][df] to load sidebar navigation items. You could find the `main-nav.yaml` data file under `_data/` directory. You could add any number of menu items by modifying `main-nav.yaml`. 
-
-An example of `main-nav.yaml`:
-
-```
-- title: "About me" # Title/Caption of the menu item
-  href: "/about" # the page where it pointed
-- title: "Blog Archive"
-  href: "/archive"
-```
-
-At some point you want to link an external URL, in that case you could edit the `_includes/sidebar.html` file. See the following example:
-
-```
-<nav class="sidebar-nav">
-   <a class="sidebar-nav-item" 
-      href="http://www.example.com"
-      target="_blank">
-      Example site
-    </a>
-</nav>
-```
-
-## License
-
-(The MIT License)
-
-Copyright (c) 2014 Gayan Virajith
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-[jekyll]: http://jekyllrb.com
-[df]: http://jekyllrb.com/docs/datafiles/
+[MIT](http://kopplin.mit-license.org/) License © Sérgio Kopplin
