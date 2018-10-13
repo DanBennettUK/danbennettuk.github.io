@@ -10,7 +10,10 @@ layout: page
 3. Teams with at least 2 players with points on the current season leaderboard will be eligible to play.
 4. Teams with fewer than 2 players with points on the leaderboard will not be able to join.
 5. Teams with the most collective points amongst players will be given priority over joining the tournament, in case of over subscription.
-6. Players banned from the /r/PUBATTLEGROUNDS Discord are not eligible to play.
+6. If only two players of the team have points, they must play in all games and cannot be substituted for a player with 0 points.
+7. If all members of the team have points, any player can be substituted for the substitute player at any time.
+8. Substitute players must play at least one game to be considered winning as part of the team.
+9. Players banned from the /r/PUBATTLEGROUNDS Discord are not eligible to play.
 
 ## Team management
 1. Only the Team Leader will be the main contact for changes to a team. 
