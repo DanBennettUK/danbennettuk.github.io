@@ -18,11 +18,11 @@ layout: page
 ## Team management
 1. Only the Team Leader will be the main contact for changes to a team. 
 2. If a team disbands, remaining members must re-sign up with a new team leader and the current team leader must request the original sign-up to be removed.
-3. Team names must not be offensive
+3. Team names must not be offensive.
 4. Team names must be suitable for broadcast on Twitch and "safe for work".
 
 ## Prizes
-1. All prizes can only be one once per person. This includes the bounty prizes.
+1. All prizes can only be won once per person. This includes the bounty prizes.
 2. Team SteelSeries have the final say on who gets the bounty prize during games.
 
 ## Game
