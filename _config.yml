@@ -104,3 +104,12 @@ plugins:
 
 jekyll-mentions:
     base_url: https://github.com
+
+# Build settings
+compress-site: yes
+
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
