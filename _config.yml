@@ -109,6 +109,7 @@ jekyll-mentions:
 compress-site: yes
 exclude:
     - oldposts
+    - vendor
 
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/
