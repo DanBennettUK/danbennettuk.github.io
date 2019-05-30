@@ -4,6 +4,7 @@ layout: post
 published: true
 date: 2016-08-02
 category: blog
+author: Dan Bennett
 ---
 
 ![Album Art](/assets/images/themessabout.png)
