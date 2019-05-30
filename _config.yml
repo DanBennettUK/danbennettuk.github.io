@@ -107,6 +107,8 @@ jekyll-mentions:
 
 # Build settings
 compress-site: yes
+exclude:
+    - oldposts
 
 encoding: "utf-8"
 compress_html: # - http://jch.penibelst.de/

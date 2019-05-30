@@ -6,7 +6,7 @@ layout: page
 
 Hi, I'm Dan Bennett!
 
-Currently I am classed as a VLE Technical Consultant & Director of [PriorsVLE](https://www.priorsvle.net), providing technical support services for Moodle, Totara and Mahara administrators!
+Currently I am classed as a VLE Technical Consultant & Director of [PriorsVLE](https://www.priorsvle.com), providing technical support services for Moodle, Totara and Mahara administrators!
 
 Outside of work, I am a Music Producer. Focusing mostly on UK Hardcore, but also creating strange sounds within the Dance and Progressive range...
 You can find some sounds I've done on [Soundcloud](https://soundcloud.com/danbennettuk).
