@@ -1,7 +1,8 @@
 ---
-title: The Mess About EP - Out 19th August 2016
+title: :headphones: The Mess About EP - Out 19th August 2016
 layout: post
 published: true
+projects: true
 date: 2016-08-02 08:00
 category: blog
 ---
