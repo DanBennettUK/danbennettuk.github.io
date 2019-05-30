@@ -1,5 +1,5 @@
 ---
-title: ":headphones: The Mess About EP - Out 19th August 2016"
+title: ":headphones: The Mess About EP"
 layout: post
 date: 2016-08-02
 tag: music
