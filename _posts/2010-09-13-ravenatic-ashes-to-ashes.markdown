@@ -7,6 +7,6 @@ image:
 headerImage: true
 projects: true
 category: project
-author: dan
+author: Dan Bennett
 externalLink: https://www.beatport.com/track/ashes-to-ashes-original-mix/1408318
 --- 

@@ -8,6 +8,6 @@ headerImage: true
 projects: true
 description: "Website for DJ Riko"
 category: project
-author: dan
+author: Dan Bennett
 externalLink: https://djriko.co.uk
 ---

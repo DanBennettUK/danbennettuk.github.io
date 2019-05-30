@@ -8,6 +8,6 @@ headerImage: true
 projects: true
 description: "Providing technical and consultancy services to help you with your VLE."
 category: project
-author: dan
+author: Dan Bennett
 externalLink: https://www.priorsvle.com/
 --- 

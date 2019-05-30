@@ -7,6 +7,6 @@ image:
 headerImage: true
 projects: true
 category: project
-author: dan
+author: Dan Bennett
 externalLink: /the-mess-about-ep/
 --- 

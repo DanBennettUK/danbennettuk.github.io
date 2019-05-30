@@ -8,6 +8,6 @@ headerImage: true
 projects: true
 description: "DJBHOSTING: Managed Wordpress Hosting"
 category: project
-author: dan
+author: Dan Bennett
 externalLink: https://danbennett.me/djbhosting
 ---
