@@ -2,7 +2,7 @@
 title: The Mess About EP - Out 19th August 2016
 layout: post
 published: true
-date: {}
+date: 2016-08-19T00:00:00.000Z
 category: blog
 author: Dan Bennett
 ---
