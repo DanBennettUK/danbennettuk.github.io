@@ -1,8 +1,8 @@
 ---
-title: "The Mess About EP - Out 19th August 2016"
+title: The Mess About EP - Out 19th August 2016
 layout: post
 published: true
-date: 2016-08-02
+date: {}
 category: blog
 author: Dan Bennett
 ---
@@ -41,7 +41,5 @@ I hope that someone out there will enjoy at least one of them. But if you happen
 The EP is available on pretty much every online store... Though here's the obvious ones:
 
 ### [iTunes](https://itunes.apple.com/gb/album/the-mess-about-ep/id1138279615) ~ [Amazon MP3](https://www.amazon.co.uk/Mess-About-EP-Explicit/dp/B01J64NWUU) ~ [Apple Music](https://music.apple.com/gb/album/the-mess-about-ep/1138279615) ~ [Spotify](https://open.spotify.com/album/3Xv76iTfCkNFMmzKJ6zD4p?si=juQEYOBYRVacNSxuKsRsQQ)
-
-~~~It'll be on Spotify & Apple Music on 19th August.~~~
 
 Now... what next?
