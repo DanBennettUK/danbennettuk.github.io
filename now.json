@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "alias": "danbennett.me",
     "name": "Dan Bennett Website",
     "builds": [
         {
