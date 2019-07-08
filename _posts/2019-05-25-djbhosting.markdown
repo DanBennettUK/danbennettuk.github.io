@@ -9,5 +9,5 @@ projects: true
 description: "DJBHOSTING: Managed Wordpress Hosting"
 category: project
 author: Dan Bennett
-externalLink: https://danbennett.me/djbhosting
+externalLink: https://djbhosting.danbennett.me/
 ---
