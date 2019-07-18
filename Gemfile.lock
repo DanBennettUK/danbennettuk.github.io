@@ -85,7 +85,7 @@ GEM
     html-pipeline (2.11.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (3.11.0)
+    html-proofer (3.11.1)
       activesupport (>= 4.2, < 6.0)
       addressable (~> 2.3)
       mercenary (~> 0.3.2)
@@ -206,6 +206,7 @@ GEM
       gemoji (~> 3.0)
       html-pipeline (~> 2.2)
       jekyll (~> 3.0)
+    json (2.2.0)
     kramdown (1.17.0)
     liquid (4.0.0)
     listen (3.1.5)
@@ -228,7 +229,7 @@ GEM
     parallel (1.17.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
-    public_suffix (3.1.0)
+    public_suffix (3.1.1)
     rack (1.6.11)
     rack-protection (1.5.5)
       rack
@@ -281,6 +282,7 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll-admin
+  json
 
 BUNDLED WITH
    2.0.1
