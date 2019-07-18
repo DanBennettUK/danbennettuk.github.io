@@ -1,12 +1,12 @@
 ---
-title: ":desktop_computer: DJBHOSTING: Managed Wordpress Hosting"
+title: ':desktop_computer: DJBHOSTING: Managed Wordpress Hosting'
 layout: post
 date: 2019-05-25 22:10
 tag: personal
-image: 
+image:
 headerImage: true
 projects: true
-description: "DJBHOSTING: Managed Wordpress Hosting"
+description: 'DJBHOSTING: Managed Wordpress Hosting'
 category: project
 author: Dan Bennett
 externalLink: https://djbhosting.danbennett.me/
