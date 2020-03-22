@@ -8,6 +8,5 @@
             "use": "@now/static-build",
             "config": { "distDir": "_site" }
         }
-    ],
-    "regions": ["lhr1", "dub1", "bru1", "cdg1"]
+    ]
 }
