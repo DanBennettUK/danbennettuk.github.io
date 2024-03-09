@@ -335,6 +335,3 @@ DEPENDENCIES
   html-proofer
   jekyll-admin
   json
-
-BUNDLED WITH
-   2.0.1
