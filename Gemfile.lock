@@ -21,7 +21,7 @@ GEM
       io-event (~> 1.5, >= 1.5.1)
       timers (~> 4.1)
     base64 (0.2.0)
-    bigdecimal (3.1.6)
+    bigdecimal (3.1.7)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -34,7 +34,7 @@ GEM
       fiber-annotation
       fiber-local
       json
-    dnsruby (1.70.0)
+    dnsruby (1.71.0)
       simpleidn (~> 0.2.1)
     drb (2.2.1)
     em-websocket (0.5.3)
@@ -138,7 +138,6 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
-      webrick (>=1.0)
     jekyll-avatar (0.8.0)
       jekyll (>= 3.0, < 5.0)
     jekyll-coffeescript (1.2.2)
@@ -249,14 +248,14 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.22.2)
+    minitest (5.22.3)
     multi_json (1.15.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
-    nokogiri (1.16.2)
+    nokogiri (1.16.3)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
     octokit (4.25.1)
@@ -325,6 +324,7 @@ GEM
     unf_ext (0.0.9.1)
     unicode-display_width (1.8.0)
     uri (0.13.0)
+    webrick (1.8.1)
     yell (2.2.2)
     zeitwerk (2.6.13)
 
@@ -336,3 +336,4 @@ DEPENDENCIES
   html-proofer
   jekyll-admin
   json
+  webrick
