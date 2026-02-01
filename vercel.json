@@ -5,7 +5,13 @@
         {
             "src": "build.sh",
             "use": "@vercel/static-build",
-            "config": { "distDir": "_site" }
+            "config": { 
+                "distDir": "_site"
+            }
         }
-    ]
+    ],
+    "env": {
+        "LANG": "en_US.UTF-8",
+        "LC_ALL": "en_US.UTF-8"
+    }
 }
