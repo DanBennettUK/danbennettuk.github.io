@@ -2,6 +2,9 @@
 name: Dan Bennett
 bio: TBC - Discussing current role
 
+# Encoding
+encoding: utf-8
+
 # twitter summary info
 description: Dan Bennett
 
@@ -111,7 +114,7 @@ exclude:
     - oldposts
     - vendor
 
-encoding: "utf-8"
+encoding: utf-8
 compress_html: # - http://jch.penibelst.de/
   clippings: all
   ignore:
