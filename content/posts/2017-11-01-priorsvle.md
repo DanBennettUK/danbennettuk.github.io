@@ -1,7 +1,7 @@
 ---
 title: ":desktop_computer: PriorsVLE"
 layout: post.njk
-date: 2017-11-01 00:01
+date: 2017-11-01T00:01:00.000Z
 tag: personal
 image: 
 headerImage: true
