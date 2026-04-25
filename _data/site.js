@@ -14,8 +14,7 @@ export default {
     { label: "About", href: "/about/" }
   ],
   social: [
-    { label: "Facebook", href: "https://facebook.com/danbennett89", icon: "facebook" },
-    { label: "Twitter", href: "https://twitter.com/danbennett", icon: "twitter" },
+    { label: "X", href: "https://x.com/danbennett", icon: "x" },
     { label: "LinkedIn", href: "https://linkedin.com/in/danbennettuk", icon: "linkedin" },
     { label: "Instagram", href: "https://www.instagram.com/danbennettuk", icon: "instagram" },
     { label: "Spotify", href: "https://open.spotify.com/user/ravenatic", icon: "spotify" },

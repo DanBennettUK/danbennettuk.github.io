@@ -1,7 +1,7 @@
 <div class="social-links">
   {% for item in site.social %}
     <a class="social-links__link" href="{{ item.href }}" aria-label="{{ item.label }}"{% if item.href | isExternal %} target="_blank" rel="noopener"{% endif %}>
-      <svg aria-hidden="true" viewBox="0 0 24 24"><path d="{{ icons[item.icon] }}"></path></svg>
+      <svg class="social-links__icon social-links__icon--{{ item.icon }}" aria-hidden="true" viewBox="0 0 24 24"><path d="{{ icons[item.icon] }}"></path></svg>
     </a>
   {% endfor %}
 </div>

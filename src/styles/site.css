@@ -333,15 +333,17 @@ pre {
 
 .social-links__link {
   position: relative;
-  display: inline-grid;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   width: 35px;
   height: 35px;
-  place-items: center;
   color: var(--muted);
   text-decoration: none;
 }
 
-.social-links__link svg {
+.social-links__icon {
+  display: block;
   width: 21px;
   height: 21px;
   fill: currentColor;
