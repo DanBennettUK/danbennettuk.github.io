@@ -1,0 +1,54 @@
+---
+layout: base.njk
+title: CV
+pageClass: page cv
+permalink: /cv/
+---
+<header class="cv-hero">
+  <img src="{{ site.picture }}" alt="{{ site.name }}">
+  <div>
+    <h1>CV</h1>
+    <p>{{ cv.title }}</p>
+    <div class="cv-contact">
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+      <a href="{{ site.url }}">{{ site.url | stripProtocol }}</a>
+      <a href="https://www.linkedin.com/in/danbennettuk" target="_blank" rel="noopener">linkedin.com/in/danbennettuk</a>
+    </div>
+  </div>
+</header>
+
+<section class="cv-section">
+  <h2>About Me</h2>
+  {% for paragraph in cv.intro %}
+    <p>{{ paragraph }}</p>
+  {% endfor %}
+</section>
+
+<section class="cv-section cv-section--timeline">
+  <h2>My work so far...</h2>
+  <div class="cv-timeline">
+    {% for item in cv.experience %}
+      <article class="cv-item">
+        <div class="cv-item__details">
+          <h3>{{ item.organisation }}</h3>
+          {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.url | stripProtocol }}</a>{% endif %}
+          <p><strong>{{ item.role }}</strong></p>
+          <p>{{ item.dates }}</p>
+        </div>
+        <div class="cv-item__body">
+          {% if item.quote %}<p class="cv-item__quote">{{ item.quote }}</p>{% endif %}
+          {% for paragraph in item.paragraphs %}
+            <p>{{ paragraph }}</p>
+          {% endfor %}
+          {% if item.bullets %}
+            <ul>
+              {% for bullet in item.bullets %}
+                <li>{{ bullet }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>

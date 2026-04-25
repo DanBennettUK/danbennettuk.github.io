@@ -1,0 +1,14 @@
+---
+title: ":desktop_computer: DJRiko.co.uk - Producer & DJ"
+layout: post.njk
+date: 2019-05-26 
+tag: personal
+image: 
+headerImage: true
+projects: true
+description: "Website for DJ Riko"
+category: project
+author: Dan Bennett
+externalLink: https://djriko.co.uk
+permalink: false
+---

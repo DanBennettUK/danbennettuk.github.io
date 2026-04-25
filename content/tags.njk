@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: Tags
+pageClass: tags
+showHeader: true
+permalink: /tags/
+---
+<section class="list">
+  {% set tags = collections.posts | postTags %}
+  {% for tag in tags %}
+    <article class="list__item" id="{{ tag }}">
+      <h3 class="list__title">{{ tag }}</h3>
+      {% for item in collections.posts | sortNewest %}
+        {% if item.data.tag == tag %}
+          <p><a href="{{ item.data.externalLink or item.url }}">{{ item.data.title | emojify }}</a></p>
+        {% endif %}
+      {% endfor %}
+    </article>
+  {% endfor %}
+</section>

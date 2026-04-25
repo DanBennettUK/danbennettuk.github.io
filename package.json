@@ -1,0 +1,19 @@
+{
+  "name": "danbennett.me",
+  "version": "2026.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Static personal site for Dan Bennett.",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve --port=4000",
+    "build:legacy": "node scripts/build-site.mjs",
+    "serve:legacy": "python3 -m http.server 4000"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}

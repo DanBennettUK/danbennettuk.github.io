@@ -1,0 +1,12 @@
+---
+layout: base.njk
+title: Projects
+pageClass: projects
+showHeader: true
+permalink: /projects/
+---
+<section class="list">
+  {% for item in collections.posts | projects | sortNewest %}
+    {% include "list-item.njk" %}
+  {% endfor %}
+</section>

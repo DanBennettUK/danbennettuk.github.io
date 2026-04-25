@@ -1,0 +1,17 @@
+---
+layout: base.njk
+title: Blog
+pageClass: blog
+showHeader: true
+permalink: /blog/
+---
+<section class="list">
+  {% set posts = collections.posts | where("category", "blog") | sortNewest %}
+  {% if posts.length %}
+    {% for item in posts %}
+      {% include "list-item.njk" %}
+    {% endfor %}
+  {% else %}
+    <p class="text-center">Nothing published yet!</p>
+  {% endif %}
+</section>

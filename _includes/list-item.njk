@@ -1,0 +1,6 @@
+<article class="list__item">
+  <a class="list__link" href="{{ item.data.externalLink or item.url }}">
+    <aside class="list__date"><time datetime="{{ item.date | htmlDate }}">{{ item.date | displayDate }}</time></aside>
+    <h3 class="list__title">{{ item.data.title | emojify }}{% if item.data.description %} {{ item.data.description }}{% endif %}</h3>
+  </a>
+</article>
