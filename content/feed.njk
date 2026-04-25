@@ -1,0 +1,21 @@
+---
+permalink: /feed.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+  <title>{{ site.name }}</title>
+  <link>{{ site.url }}/</link>
+  <description>{{ site.description }}</description>
+  {% for item in collections.posts | where("category", "blog") | sortNewest %}
+  <item>
+    <title>{{ item.data.title }}</title>
+    <link>{{ site.url }}{{ item.url }}</link>
+    <guid>{{ site.url }}{{ item.url }}</guid>
+    <pubDate>{{ item.date | rssDate }}</pubDate>
+    <description>{{ item.templateContent | excerpt }}</description>
+  </item>
+  {% endfor %}
+</channel>
+</rss>

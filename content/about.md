@@ -1,3 +1,11 @@
+---
+layout: base.njk
+title: About
+pageClass: page about
+permalink: /about/
+---
+# About
+
 ![Profile Image](/assets/images/dan.jpg)
 
 Hi, I'm Dan Bennett!
@@ -11,9 +19,6 @@ I'm also a past Radio Presenter. It's something I really enjoyed and really want
 
 ### Contact me
 
-This is rather brief and I need to sit down and fully update this. But in the mean time, come say `Hello` on [Twitter] or by [E-Mail].
+This is rather brief and I need to sit down and fully update this. But in the mean time, come say `Hello` on [Twitter](https://twitter.com/danbennett) or by [E-Mail](mailto:dan@danbennett.me).
 
 ---
-
-[Twitter]: https://twitter.com/danbennett
-[E-Mail]: mailto:dan@danbennett.me

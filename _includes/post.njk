@@ -1,0 +1,10 @@
+---
+layout: base.njk
+pageClass: page post
+---
+<article>
+  <h1 class="post__title">{{ title | emojify }}</h1>
+  <span class="post__meta"><time datetime="{{ page.date | htmlDate }}">{{ page.date | longDate }}</time> - {{ content | readTime }}</span>
+  {% if tag %}<div class="post__tags"><a class="post__tag" href="/tags/#{{ tag }}">{{ tag }}</a></div>{% endif %}
+  {{ content | safe }}
+</article>
