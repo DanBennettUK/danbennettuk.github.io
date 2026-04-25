@@ -6,6 +6,7 @@
   "description": "Static personal site for Dan Bennett.",
   "scripts": {
     "build": "eleventy",
+    "check:build": "node scripts/check-build.mjs",
     "serve": "eleventy --serve --port=4000",
     "build:legacy": "node scripts/build-site.mjs",
     "serve:legacy": "python3 -m http.server 4000"

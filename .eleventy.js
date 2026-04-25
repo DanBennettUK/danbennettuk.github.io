@@ -69,7 +69,7 @@ export default function (eleventyConfig) {
   });
 
   eleventyConfig.addCollection("posts", (collectionApi) => {
-    return collectionApi.getFilteredByGlob("content/posts/*.{md,markdown}");
+    return collectionApi.getFilteredByGlob("content/posts/*.md");
   });
 
   return {
