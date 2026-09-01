@@ -570,19 +570,20 @@ pre {
 
 .cv-timeline {
   display: grid;
-  gap: 36px;
+  gap: 0;
 }
 
 .cv-item {
   display: grid;
   grid-template-columns: minmax(190px, 0.34fr) minmax(0, 1fr);
   gap: 34px;
-  padding-bottom: 36px;
-  border-bottom: 1px solid var(--line);
+  padding: 36px 0;
+  border-top: 2px solid var(--line);
 }
 
-.cv-item:last-child {
-  border-bottom: 0;
+.cv-item:first-child {
+  padding-top: 0;
+  border-top: 0;
 }
 
 .cv-item__details h3 {

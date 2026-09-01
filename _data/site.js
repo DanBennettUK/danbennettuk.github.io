@@ -10,7 +10,7 @@ export default {
     { label: "Home", href: "/" },
     { label: "Blog", href: "/blog/" },
     { label: "Projects", href: "/projects/" },
-    { label: "CV", href: "/cv/" },
+    { label: "CV", href: "https://cv.danbennett.me/" },
     { label: "About", href: "/about/" }
   ],
   social: [
